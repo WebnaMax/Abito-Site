@@ -1,0 +1,58 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    width: 100%;
+}
+
+.card--item:hover .card--title {
+    color: rgba(10, 20, 58, 1);
+}
+
+.card--img {
+    width: 100%;
+    display: flex;
+}
+
+.card--img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card--title {
+    margin: 15px 0 5px 0;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(37, 110, 235, 1);
+    transition: .3s all ease;
+}
+
+.card--price {
+    color: rgba(10, 20, 58, 1);
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+}
+
+.card--desc-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.card--desc {
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(196, 196, 196, 1);
+}
+
+@media (max-width: 468px) {
+    .card {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
