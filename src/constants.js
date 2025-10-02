@@ -5,7 +5,8 @@ export const cardArray = [
         price: '160 ₽',
         adress: 'Казань, р-н Вахитовский',
         date: '15 июля 11:39',
-        img: './images/productImage.png',
+        img: '/images/productImage.png',
+        description: 'Продаю не спеша самокат в хорошем состоянии.',
     },
     {
         id: 1,
@@ -13,7 +14,8 @@ export const cardArray = [
         price: '170 ₽',
         adress: 'Казань, р-н Вахитовский',
         date: '10 июня 16:51',
-        img: './images/productImage.png',
+        img: '/images/productImage.png',
+        description: 'Продаю не спеша самокат в хорошем состоянии.',
     },
     {
         id: 2,
@@ -21,7 +23,8 @@ export const cardArray = [
         price: '180 ₽',
         adress: 'Казань, р-н Вахитовский',
         date: '29 июля 09:11',
-        img: './images/productImage.png',
+        img: '/images/productImage.png',
+        description: 'Продаю не спеша самокат в хорошем состоянии.',
     },
     {
         id: 3,
@@ -29,7 +32,8 @@ export const cardArray = [
         price: '190 ₽',
         adress: 'Казань, р-н Вахитовский',
         date: '30 июня 11:22',
-        img: './images/productImage.png',
+        img: '/images/productImage.png',
+        description: 'Продаю не спеша самокат в хорошем состоянии.',
     },
     {
         id: 4,
@@ -37,7 +41,8 @@ export const cardArray = [
         price: '200 ₽',
         adress: 'Казань, р-н Вахитовский',
         date: '24 июля 18:39',
-        img: './images/productImage.png',
+        img: '/images/productImage.png',
+        description: 'Продаю не спеша самокат в хорошем состоянии.',
     },
     {
         id: 5,
@@ -45,7 +50,8 @@ export const cardArray = [
         price: '210 ₽',
         adress: 'Казань, р-н Вахитовский',
         date: '1 июля 08:52',
-        img: './images/productImage.png',
+        img: '/images/productImage.png',
+        description: 'Продаю не спеша самокат в хорошем состоянии.',
     },
 
 ];
